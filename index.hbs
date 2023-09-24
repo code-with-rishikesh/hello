@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>data-fetcher</title>
+  
+   
+    
+</head>
+<body>
+   
+    <div class="centre-box" id="register-div">
+        <h2>DROPOUT-RATE</h2>
+        <form action="/n" method="post">
+      <input type="number" id="login-email" class="textfeild"  name="primary" placeholder="primary-dropout"/>
+        <br>
+         <input type="number" id="login-password" class="textfeild" name="upperprimary" placeholder="upper-primary-dropout"/>
+         <br>
+          <input type="number" id="login-password" class="textfeild" name="elementary" placeholder="elementary-dropout"/>
+          <br>
+        <button id="register-button" class="btn-style" type="submit">ADD_DATA</button><br>
+        
+        </form>
+      
+    </div>
+
+<script>
+    document.getElementById("reg-button").addEventListener("click",function(){
+    document.getElementById("register-div").style.display="inline";
+    document.getElementById("login-div").style.display="none";
+    alert("YOU ARE GOING TO REGISTER PAGE");
+});
+
+
+</script>
